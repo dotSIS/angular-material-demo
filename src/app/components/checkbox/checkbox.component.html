@@ -1,0 +1,10 @@
+<div class="checkbox-demo">
+  <h2>Angular Material Checkbox</h2>
+
+  <mat-checkbox [(ngModel)]="checked">Check me!</mat-checkbox>
+  <mat-checkbox [(ngModel)]="indeterminate" [indeterminate]="indeterminate">
+    Indeterminate
+  </mat-checkbox>
+
+  <p>Checked: {{ checked }}</p>
+  <p>Indeterminate: {{ indeterminate }}</p>

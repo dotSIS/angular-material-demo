@@ -1,0 +1,8 @@
+/* Add styles specific to the divider component here */
+h2 {
+  margin-bottom: 16px;
+}
+
+mat-divider {
+  margin: 16px 0;
+}

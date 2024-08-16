@@ -1,0 +1,13 @@
+<div class="button-toggle-demo">
+  <h2>Angular Material Button Toggle</h2>
+  <mat-button-toggle-group
+    [(value)]="selectedValue"
+    aria-label="Text alignment"
+    class="button-toggle-group">
+    <mat-button-toggle value="left">Left</mat-button-toggle>
+    <mat-button-toggle value="center">Center</mat-button-toggle>
+    <mat-button-toggle value="right">Right</mat-button-toggle>
+  </mat-button-toggle-group>
+
+  <p>Selected value: {{ selectedValue }}</p>
+</div>

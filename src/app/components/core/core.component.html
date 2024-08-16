@@ -1,0 +1,21 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <p>Core Navigation</p>
+    <button mat-button routerLink="/">Home</button>
+    <button mat-button routerLink="/autocomplete">Autocomplete</button>
+    <button mat-button routerLink="/badge">Badge</button>
+    <button mat-button routerLink="/button">Button</button>
+    <button mat-button routerLink="/button-toggle">Button Toggle</button>
+    <button mat-button routerLink="/card">Card</button>
+    <button mat-button routerLink="/checkbox">Checkbox</button>
+    <button mat-button routerLink="/chips">Chips</button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <span>Angular Material Core Component</span>
+    </mat-toolbar>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

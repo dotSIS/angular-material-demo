@@ -1,0 +1,10 @@
+<h2>Autocomplete Example</h2>
+<mat-form-field appearance="fill">
+  <mat-label>Choose a state</mat-label>
+  <input type="text" matInput [matAutocomplete]="auto">
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let state of states" [value]="state">
+      {{ state }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>
