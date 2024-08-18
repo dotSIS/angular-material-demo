@@ -1,0 +1,11 @@
+<h2>Expansion Panel Example</h2>
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let panel of panels">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ panel.title }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <p>{{ panel.content }}</p>
+  </mat-expansion-panel>
+</mat-accordion>

@@ -13,6 +13,12 @@ import { CoreComponent } from './components/core/core.component'; // Import Core
 import { DatepickerComponent } from './components/datepicker/datepicker.component'; // Import DatepickerComponent
 import { DialogComponent } from './components/dialog/dialog.component'; // Import DialogComponent
 import { DividerComponent } from './components/divider/divider.component'; // Import DividerComponent
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component'; // Import ExpansionPanelComponent
+import { FormFieldComponent } from './components/form-field/form-field.component'; // Import FormFieldComponent
+import { GridListComponent } from './components/grid-list/grid-list.component'; // Import GridListComponent
+import { IconComponent } from './components/icon/icon.component'; // Import IconComponent
+import { InputComponent } from './components/input/input.component'; // Import InputComponent
+import { ListComponent } from './components/list/list.component'; // Import ListComponent
 
 export const routes: Route[] = [
   { path: '', component: HomeComponent }, // HomeComponent will display all links
@@ -28,6 +34,12 @@ export const routes: Route[] = [
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'dialog', component: DialogComponent },
   { path: 'divider', component: DividerComponent },
+  { path: 'expansion-panel', component: ExpansionPanelComponent },
+  { path: 'form-field', component: FormFieldComponent },
+  { path: 'grid-list', component: GridListComponent },
+  { path: 'icon', component: IconComponent },
+  { path: 'input', component: InputComponent },
+  { path: 'list', component: ListComponent },
 ];
 
 export const routerProviders = [
