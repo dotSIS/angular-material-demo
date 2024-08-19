@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { NgFor } from '@angular/common';
 
@@ -10,6 +10,7 @@ import { NgFor } from '@angular/common';
   styleUrls: ['./expansion-panel.component.scss']
 })
 export class ExpansionPanelComponent {
+  readonly panelOpenState = signal(false);
   panels = [
     { title: 'Panel 1', content: 'This is the content of Panel 1' },
     { title: 'Panel 2', content: 'This is the content of Panel 2' },
