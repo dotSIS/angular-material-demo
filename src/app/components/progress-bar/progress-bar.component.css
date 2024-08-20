@@ -1,0 +1,13 @@
+mat-progress-bar {
+  margin-top: 20px;
+  height: 20px;
+  background-color: #e0e0e0;
+
+  .mat-progress-bar-fill {
+    background-color: #3f51b5;
+  }
+}
+
+button {
+  margin: 10px;
+}

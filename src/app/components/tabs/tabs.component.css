@@ -1,0 +1,17 @@
+h2 {
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+.mat-tab-group {
+  margin-bottom: 20px;
+}
+
+.mat-tab-label {
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+}

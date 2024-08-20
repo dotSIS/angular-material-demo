@@ -1,0 +1,21 @@
+.example-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.example-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.example-button:hover {
+  background-color: #303f9f;
+}

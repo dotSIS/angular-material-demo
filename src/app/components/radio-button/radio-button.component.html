@@ -1,0 +1,8 @@
+<h2>Radio Button Example</h2>
+<mat-radio-group [(ngModel)]="selectedValue">
+  <mat-radio-button *ngFor="let option of options" [value]="option">
+    {{ option }}
+  </mat-radio-button>
+</mat-radio-group>
+
+<p>Selected: {{ selectedValue }}</p>

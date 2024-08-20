@@ -1,0 +1,10 @@
+/* radio-button.component.scss */
+h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+mat-radio-button {
+  display: block;
+  margin: 8px 0;
+}

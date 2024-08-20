@@ -1,24 +1,42 @@
 import { Route } from '@angular/router';
 import { provideRouter } from '@angular/router';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
-import { HomeComponent } from './components/home/home.component'; // Import the HomeComponent
-import { BadgeComponent } from './components/badge/badge.component'; // Import the BadgeComponent
-import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component'; // Import the BottomSheetComponent
-import { ButtonComponent } from './components/button/button.component'; // Import the ButtonComponent
-import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component'; // Import ButtonToggleComponent
-import { CardComponent } from './components/card/card.component'; // Import CardComponent
-import { CheckboxComponent } from './components/checkbox/checkbox.component'; // Import CheckboxComponent
-import { ChipsComponent } from './components/chips/chips.component'; // Import ChipsComponent
-import { CoreComponent } from './components/core/core.component'; // Import CoreComponent
-import { DatepickerComponent } from './components/datepicker/datepicker.component'; // Import DatepickerComponent
-import { DialogComponent } from './components/dialog/dialog.component'; // Import DialogComponent
-import { DividerComponent } from './components/divider/divider.component'; // Import DividerComponent
-import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component'; // Import ExpansionPanelComponent
-import { FormFieldComponent } from './components/form-field/form-field.component'; // Import FormFieldComponent
-import { GridListComponent } from './components/grid-list/grid-list.component'; // Import GridListComponent
-import { IconComponent } from './components/icon/icon.component'; // Import IconComponent
-import { InputComponent } from './components/input/input.component'; // Import InputComponent
-import { ListComponent } from './components/list/list.component'; // Import ListComponent
+import { HomeComponent } from './components/home/home.component';
+import { BadgeComponent } from './components/badge/badge.component';
+import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
+import { ButtonComponent } from './components/button/button.component';
+import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component';
+import { CardComponent } from './components/card/card.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { ChipsComponent } from './components/chips/chips.component';
+import { CoreComponent } from './components/core/core.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { DialogComponent } from './components/dialog/dialog.component';
+import { DividerComponent } from './components/divider/divider.component';
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
+import { FormFieldComponent } from './components/form-field/form-field.component';
+import { GridListComponent } from './components/grid-list/grid-list.component';
+import { IconComponent } from './components/icon/icon.component';
+import { InputComponent } from './components/input/input.component';
+import { ListComponent } from './components/list/list.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import { RipplesComponent } from './components/ripples/ripples.component';
+import { SelectComponent } from './components/select/select.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { SlideToggleComponent } from './components/slide-toggle/slide-toggle.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { SortHeaderComponent } from './components/sort-header/sort-header.component';
+import { StepperComponent } from './components/stepper/stepper.component';
+import { TableComponent } from './components/table/table.component';
+import { TabsComponent } from './components/tabs/tabs.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
+import { TreeComponent } from './components/tree/tree.component';
 
 export const routes: Route[] = [
   { path: '', component: HomeComponent }, // HomeComponent will display all links
@@ -40,6 +58,24 @@ export const routes: Route[] = [
   { path: 'icon', component: IconComponent },
   { path: 'input', component: InputComponent },
   { path: 'list', component: ListComponent },
+  { path: 'menu', component: MenuComponent },
+  { path: 'paginator', component: PaginatorComponent },
+  { path: 'progress-bar', component: ProgressBarComponent },
+  { path: 'progress-spinner', component: ProgressSpinnerComponent },
+  { path: 'radio-button', component: RadioButtonComponent },
+  { path: 'ripples', component: RipplesComponent },
+  { path: 'select', component: SelectComponent },
+  { path: 'sidenav', component: SidenavComponent },
+  { path: 'slide-toggle', component: SlideToggleComponent },
+  { path: 'slider', component: SliderComponent },
+  { path: 'snackbar', component: SnackbarComponent },
+  { path: 'sort-header', component: SortHeaderComponent },
+  { path: 'stepper', component: StepperComponent },
+  { path: 'table', component: TableComponent },
+  { path: 'tabs', component: TabsComponent },
+  { path: 'toolbar', component: ToolbarComponent },
+  { path: 'tooltip', component: TooltipComponent },
+  { path: 'tree', component: TreeComponent },
 ];
 
 export const routerProviders = [
